@@ -1,0 +1,25 @@
+{
+  "name": "kms-encrypt-obj",
+  "version": "0.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "bin": {
+    "kms-encrypt-obj": "bin/kms-encrypt-obj.js",
+    "kms-decrypt-obj": "bin/kms-decrypt-obj.js"
+  },
+  "author": "Kazushi Kitaya",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.383.0",
+    "deasync": "^0.1.14",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.11.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
