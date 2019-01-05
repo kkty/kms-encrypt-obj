@@ -1,6 +1,6 @@
 {
   "name": "kms-encrypt-obj",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
   },
   "author": "Kazushi Kitaya",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkty/kms-encrypt-obj.git"
+  },
   "dependencies": {
     "aws-sdk": "^2.383.0",
     "deasync": "^0.1.14",
